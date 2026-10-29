@@ -1,0 +1,8 @@
+#root,
+.legacy-react-page {
+  display: contents;
+}
+
+.react-replica body {
+  min-width: 320px;
+}
