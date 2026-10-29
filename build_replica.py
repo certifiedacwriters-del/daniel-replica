@@ -98,6 +98,21 @@ for url,content in text_assets.items():
     (DIST/mapping[url]).write_text(content,encoding='utf-8')
 for original,replacement in sorted(mapping.items(),key=lambda x:-len(x[0])):
     rendered=rendered.replace(original.replace('&','&amp;'),'/'+replacement).replace(original,'/'+replacement)
+
+# Replace the original header wordmark with the project-owned PrepWthDian artwork.
+brand_assets = {
+    'prepwthdian-logo.png': (1024, 150),
+    'prepwthdian-logo-768.png': (768, 112),
+    'prepwthdian-logo-300.png': (300, 44),
+}
+for filename in brand_assets:
+    source = ROOT / 'source-assets' / filename
+    destination = DIST / 'assets' / filename
+    destination.write_bytes(source.read_bytes())
+rendered = rendered.replace('/assets/e19cd3c77f580a20.png', '/assets/prepwthdian-logo.png')
+rendered = rendered.replace('/assets/0254f1f57243d1ed.png', '/assets/prepwthdian-logo-768.png')
+rendered = rendered.replace('/assets/cf2f6f9aff1184e1.png', '/assets/prepwthdian-logo-300.png')
+rendered = rendered.replace('<img alt="" class="attachment-full size-full wp-image-8063"', '<img alt="PrepWthDian" class="attachment-full size-full wp-image-8063"', 1)
 extra='''
 <style>
 .replica-chat-launcher{position:fixed;right:22px;bottom:24px;width:58px;height:58px;border-radius:50%;background:#ffcf00;color:#fff;border:0;font-size:28px;z-index:99999;box-shadow:0 4px 20px #0002;padding:0;cursor:pointer}
