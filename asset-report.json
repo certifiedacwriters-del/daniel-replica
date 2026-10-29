@@ -1,0 +1,34 @@
+{
+  "downloaded": 205,
+  "errors": [
+    {
+      "url": "https://thinkwithdaniel.com/wp-content/plugins/elementor-pro/assets/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://thinkwithdaniel.com/wp-content/plugins/elementor/assets/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://thinkwithdaniel.com/wp-content/uploads",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "removed_integrations": [
+    "https://www.googletagmanager.com/gtag/js?id=AW-18358444190",
+    "inline integration",
+    "inline integration",
+    "inline integration",
+    "inline integration",
+    "inline integration",
+    "https://t.contentsquare.net/uxa/454233fef2b8c.js",
+    "inline integration",
+    "inline integration",
+    "inline integration",
+    "https://crm.thinkutor.net/reputation/assets/review-widget.js",
+    "https://beta.leadconnectorhq.com/loader.js",
+    "inline integration",
+    "inline integration",
+    "https://crm.thinkutor.net/js/external-tracking.js"
+  ]
+}
