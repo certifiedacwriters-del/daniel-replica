@@ -853,7 +853,7 @@ Error generating stack: `+e.message+`
 <div class="elementor-element elementor-element-b245288 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="b245288">\r
 <div class="elementor-element elementor-element-9b30669 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="9b30669" data-widget_type="image.default">\r
 <div class="elementor-widget-container">\r
-<img alt="" class="attachment-large size-large wp-image-2846" decoding="async" height="127" loading="lazy" sizes="(max-width: 461px) 100vw, 461px" src="/assets/e256fe14744a6112.png" srcset="/assets/e256fe14744a6112.png 461w, /assets/154cbfad3cd4a413.png 300w" width="461"/> </div>\r
+<img alt="Frequently Asked Question?" class="attachment-large size-large wp-image-2846" decoding="async" height="127" loading="lazy" sizes="(max-width: 461px) 100vw, 461px" src="/assets/frequently-asked-question-ati-red.png" width="461"/> </div>\r
 </div>\r
 <div class="elementor-element elementor-element-73b9376 elementor-widget elementor-widget-n-accordion" data-e-type="widget" data-element_type="widget" data-id="73b9376" data-settings='{"default_state":"expanded","max_items_expended":"one","n_accordion_animation_duration":{"unit":"ms","size":400,"sizes":[]}}' data-widget_type="nested-accordion.default">\r
 <div class="elementor-widget-container">\r
