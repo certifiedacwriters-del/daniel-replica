@@ -1,6 +1,8 @@
 import { useEffect, useLayoutEffect } from 'react'
 import legacyMarkup from './legacy-body.html?raw'
 import scriptManifest from './legacy-scripts.json'
+import './trusted-logos.css'
+import { applyChoices, STORAGE_KEY } from './imageSlots.js'
 
 const bodyClassName = 'home wp-singular page-template-default page page-id-2622 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor hello-elementor-default elementor-default elementor-kit-7 elementor-page elementor-page-2622'
 
@@ -28,6 +30,17 @@ export default function App() {
   useLayoutEffect(() => {
     document.body.className = bodyClassName
     document.documentElement.classList.add('react-replica')
+    applyChoices()
+
+    // Re-apply when the choice changes in /admin2 (another tab or the preview iframe).
+    const onStorage = (event) => { if (event.key === STORAGE_KEY) applyChoices() }
+    const onLocalChange = () => applyChoices()
+    window.addEventListener('storage', onStorage)
+    window.addEventListener('image-slots-changed', onLocalChange)
+    return () => {
+      window.removeEventListener('storage', onStorage)
+      window.removeEventListener('image-slots-changed', onLocalChange)
+    }
   }, [])
 
   useEffect(() => {
