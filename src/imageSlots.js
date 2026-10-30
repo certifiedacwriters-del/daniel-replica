@@ -12,7 +12,7 @@ export const imageSlots = [
       { key: 'b', name: 'New', src: '/assets/hero-headline.png' },
       { key: 'c', name: 'Tutor (red)', src: '/assets/hero-headline-tutor.png' },
     ],
-    defaultKey: 'b',
+    defaultKey: 'c',
   },
   {
     id: 'hero-photo',
@@ -20,9 +20,10 @@ export const imageSlots = [
     label: 'Photo',
     options: [
       { key: 'a', name: 'Original', src: '/assets/6ff928485faf7ffe.png' },
-      { key: 'b', name: 'Nurse', src: '/assets/hero-photo-nurse.png' },
+      { key: 'b', name: 'Nurse (blue)', src: '/assets/hero-photo-nurse.png' },
+      { key: 'c', name: 'Nurse (crimson)', src: '/assets/hero-photo-nurse-crimson.png' },
     ],
-    defaultKey: 'b',
+    defaultKey: 'c',
   },
 ]
 
