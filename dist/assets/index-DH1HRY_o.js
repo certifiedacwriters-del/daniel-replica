@@ -286,7 +286,7 @@ Error generating stack: `+e.message+`
 </div>\r
 <div class="elementor-element elementor-element-35a7c40 elementor-widget__width-auto elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="35a7c40" data-widget_type="image.default">\r
 <div class="elementor-widget-container">\r
-<img alt="" class="attachment-large size-large wp-image-2771" decoding="async" height="125" loading="lazy" sizes="(max-width: 550px) 100vw, 550px" src="/assets/bb0e44ab1eefe3ff.png" srcset="/assets/bb0e44ab1eefe3ff.png 550w, /assets/d2561aa4c2221e92.png 300w" width="550"/> </div>\r
+<img alt="Academic Success — We’ve Made Possible" class="attachment-large size-large wp-image-2771" decoding="async" height="125" loading="lazy" sizes="(max-width: 550px) 100vw, 550px" src="/assets/academic-success-ati-red.png" width="550"/> </div>\r
 </div>\r
 <div class="elementor-element elementor-element-7088e70 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="7088e70" data-widget_type="image.default">\r
 <div class="elementor-widget-container">\r
@@ -333,7 +333,7 @@ Error generating stack: `+e.message+`
 <div class="elementor-element elementor-element-7370a40 e-con-full e-flex e-con e-child" data-e-type="container" data-element_type="container" data-id="7370a40">\r
 <div class="elementor-element elementor-element-a660169 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="a660169" data-widget_type="image.default">\r
 <div class="elementor-widget-container">\r
-<img alt="" class="attachment-large size-large wp-image-2811" decoding="async" height="146" loading="lazy" sizes="(max-width: 508px) 100vw, 508px" src="/assets/1338be6fe6c63f10.png" srcset="/assets/1338be6fe6c63f10.png 508w, /assets/f7422193d9d502b5.png 300w" width="508"/> </div>\r
+<img alt="Can’t find what you’re looking for?" class="attachment-large size-large wp-image-2811" decoding="async" height="146" loading="lazy" sizes="(max-width: 508px) 100vw, 508px" src="/assets/cant-find-looking-for-ati-red.png" width="508"/> </div>\r
 </div>\r
 <div class="elementor-element elementor-element-fb6fd78 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="fb6fd78" data-widget_type="image.default">\r
 <div class="elementor-widget-container">\r
