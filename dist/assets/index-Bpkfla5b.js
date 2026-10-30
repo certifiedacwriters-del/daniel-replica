@@ -290,7 +290,7 @@ Error generating stack: `+e.message+`
 </div>\r
 <div class="elementor-element elementor-element-7088e70 elementor-widget elementor-widget-image" data-e-type="widget" data-element_type="widget" data-id="7088e70" data-widget_type="image.default">\r
 <div class="elementor-widget-container">\r
-<img alt="" class="attachment-full size-full wp-image-5332" decoding="async" height="106" loading="lazy" sizes="(max-width: 643px) 100vw, 643px" src="/assets/e4e8301fc494d084.png" srcset="/assets/e4e8301fc494d084.png 643w, /assets/fdbb16e3ee80672d.png 300w" width="643"/> </div>\r
+<img alt="We have a team of highly qualified tutors who will tutor your online classes as needed and help you score high grades in not just one but all your courses." class="attachment-full size-full wp-image-5332" decoding="async" height="106" loading="lazy" sizes="(max-width: 643px) 100vw, 643px" src="/assets/qualified-tutors-dian-copy.png" width="643"/> </div>\r
 </div>\r
 <div class="elementor-element elementor-element-daeb220 ghl-open elementor-widget elementor-widget-button" data-e-type="widget" data-element_type="widget" data-id="daeb220" data-widget_type="button.default">\r
 <div class="elementor-widget-container">\r
